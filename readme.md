@@ -14,7 +14,7 @@
 ### Time Required to finish the project
     (4.5 hrs)
 
- [Deployed Link](https://css-html-project-fifteen.netlify.app/)
+ [Deployed Link](https://project15-productdesign-landing-page.netlify.app/)
 
 ![badge](https://img.shields.io/badge/Deployment-Up-green)
 
