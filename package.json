@@ -1,0 +1,14 @@
+{
+  "name": "live-class-project-15",
+  "version": "1.0.0",
+  "description": "- SVG manipulation\r     - Positioning elements\r     - sectionwise html page building\r     - Propeties like before and after",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

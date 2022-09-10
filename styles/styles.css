@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.logo>img {
+    float: left;
+    margin-top: 10px;
+    width: 100px;
+    background-color: transparent;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+    width: 650px;
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+}
+
+.nav-item {
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.headsection {
+    height: 500px;
+}
+
+.headsection::before {
+    content: "";
+    width: 900px;
+    height: 1000px;
+    background-color: #181818;
+    position: absolute;
+    top: 560px;
+    left: -100px;
+    z-index: 1;
+}
+
+.headimg>img {
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+}
+
+.headcontent {
+    width: 480px;
+    float: right;
+    margin-right: 400px;
+    margin-top: 150px;
+}
+
+.headcontent>h4 {
+    color: #ff2f00;
+    font-size: 18px;
+}
+
+.headcontent>h1 {
+    font-size: 50px;
+}
+
+.headcontent>button {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 8px 25px;
+    background-color: #ff2f00;
+    border: 1px solid #ff2f00;
+    cursor: pointer;
+}
+
+.sectionone {
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 100px;
+    z-index: 2;
+    background-color: transparent;
+    position: relative;
+}
+
+.cards {
+    display: flex;
+    justify-content: end;
+    background-color: transparent;
+}
+
+.card {
+    width: 325px;
+    height: 350px;
+    margin-left: 25px;
+    background-color: #2e2e2e;
+}
+
+.card.active {
+    color: #fff;
+    background-color: #ff2f00;
+}
+
+.card.active>h4 {
+    color: #fff;
+}
+
+.card>img {
+    width: 60px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card>h3 {
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 25px;
+}
+
+.card>p {
+    margin-top: 10px;
+    margin-left: 35px;
+    background-color: transparent;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.card>h4 {
+    margin-top: 20px;
+    margin-left: 35px;
+    background-color: transparent;
+    color: #ff2f00;
+}
+
+.sectintwo {
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 100px;
+    z-index: 2;
+    position: relative;
+    background-color: transparent;
+}
+
+.sectintwo>div:first-child {
+    width: 325px;
+    background-color: transparent;
+    margin-left: 192px;
+    margin-top: 120px;
+    float: left;
+    height: 350;
+}
+
+.sectintwo>div:first-child>h1 {
+    color: #ff2f00;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: transparent;
+}
+
+.sectintwo>div:first-child>h3 {
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.cardstwo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 675px;
+    float: right;
+    margin-top: 50px;
+    height: 350px;
+    background-color: transparent;
+}
+
+.cardtwo {
+    width: 325px;
+    height: 150px;
+    background-color: #2e2e2e;
+}
+
+.cardtwo>h1 {
+    color: #ff2f00;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.cardtwo>h3 {
+    font-size: 15px;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.sectionthree {
+    margin-left: 290px;
+    margin-right: 200px;
+}
+
+.sectionthree>button {
+    float: right;
+    margin-top: -150px;
+}
+
+.sectionthree>h1 {
+    width: 500px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.sectionthree>p {
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+.projectcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projectcard {
+    margin-bottom: 40px;
+}
+
+.projectimg>img {
+    width: 450px;
+    padding: 50px 20px 50px 20px;
+    background-color: #2e2e2e;
+}
+
+.projectcard>h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.projectcard>h5 {
+    color: #ff2f00;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.projectimg.last {
+    background-color: #2e2e2e;
+    padding-bottom: 40px;
+}
+
+.sectionfour {
+    margin-left: 270px;
+    margin-right: 180px;
+    background-color: #2e2e2e;
+    height: 300px;
+    border: 1px solid #2e2e2e;
+    margin-bottom: 50px;
+}
+
+.sectionfour>h1 {
+    background-color: #2e2e2e;
+    width: 600px;
+    margin-left: 40px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.sectionfour>p {
+    background-color: #2e2e2e;
+    width: 550px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.sectionfour>button {
+    float: right;
+    margin-right: 200px;
+    margin-top: -50px;
+}
+
+.footnav {
+    width: 600px;
+    margin-left: 550px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+footer {
+    border: 1px solid #2e2e2e;
+    background-color: #2e2e2e;
+    height: 100px;
+}
+
+footer>* {
+    background-color: #2e2e2e;
+}
+
+.socialicon {
+    background-color: transparent;
+    width: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.socialmedia {
+    width: 200px;
+    margin-left: 730px;
+    margin-top: 30px;
+}
+
+.footlogo {
+    width: 100px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+}
